@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.7" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_MDGETUSERFIELD</name>
+	<author>Martijn Hiddink</author>
+	<creationDate>14-04-2012</creationDate>
+	<copyright>(C) 2012</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL v2.0</license>
+	<authorEmail>support@mardinkwebdesign.com</authorEmail>
+	<authorUrl>http://www.mardinkwebdesign.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_MDGETUSERFIELD_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="mdgetuserfield">mdgetuserfield.php</filename>
+		<filename>index.html</filename>
+		<folder>languages</folder>
+	</files>
+<languages folder="languages">
+<language tag="en-GB">en-GB/en-GB.plg_content_mdgetuserfield.ini</language>
+<language tag="en-GB">en-GB/en-GB.plg_content_mdgetuserfield.sys.ini</language>
+<language tag="nl-NL">nl-NL/nl-NL.plg_content_mdgetuserfield.ini</language>
+<language tag="nl-NL">nl-NL/nl-NL.plg_content_mdgetuserfield.sys.ini</language>
+</languages>
+<config>
+<fields name="params">
+<fieldset name="basic">
+<field name="getfield" type="list" default="name" label="PLG_CONTENT_MDGETUSERFIELD_LABEL" description="PLG_CONTENT_MDGETUSERFIELD_LABEL_DESCR">
+<option value="name">PLG_CONTENT_MDGETUSERFIELD_OPTION_NAME</option>
+<option value="email">PLG_CONTENT_MDGETUSERFIELD_OPTION_EMAIL</option>
+<option value="lastvisitDate">PLG_CONTENT_MDGETUSERFIELD_OPTION_LASTVISITDATE</option>
+<option value="registerDate">PLG_CONTENT_MDGETUSERFIELD_OPTION_REGISTERDATE</option>
+<option value="username">PLG_CONTENT_MDGETUSERFIELD_OPTION_USERNAME</option>
+</field>
+</fieldset>
+</fields>
+</config>
+</extension>
