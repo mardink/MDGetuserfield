@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="1.7" type="plugin" group="content" method="upgrade">
+<extension version="2.5" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_MDGETUSERFIELD</name>
 	<author>Martijn Hiddink</author>
-	<creationDate>14-04-2012</creationDate>
-	<copyright>(C) 2012</copyright>
+	<creationDate>13-05-2013</creationDate>
+	<copyright>(C) 2013</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL v2.0</license>
 	<authorEmail>support@mardinkwebdesign.com</authorEmail>
 	<authorUrl>http://www.mardinkwebdesign.com</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>PLG_CONTENT_MDGETUSERFIELD_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="mdgetuserfield">mdgetuserfield.php</filename>
@@ -33,4 +33,8 @@
 </fieldset>
 </fields>
 </config>
+<updateservers>
+    <server type="extension" priority="1"
+        name="MD Social Update"><![CDATA[http://www.mardinkwebdesign.com/index.php?option=com_ars&view=update&task=stream&format=xml&id=8&dummy=extension.xml]]></server>
+</updateservers>
 </extension>
