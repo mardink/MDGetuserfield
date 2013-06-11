@@ -2,12 +2,12 @@
 <extension version="2.5" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_MDGETUSERFIELD</name>
 	<author>Martijn Hiddink</author>
-	<creationDate>13-05-2013</creationDate>
+	<creationDate>11-06-2013</creationDate>
 	<copyright>(C) 2013</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL v2.0</license>
 	<authorEmail>support@mardinkwebdesign.com</authorEmail>
 	<authorUrl>http://www.mardinkwebdesign.com</authorUrl>
-	<version>1.1.0</version>
+	<version>1.1.1</version>
 	<description>PLG_CONTENT_MDGETUSERFIELD_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="mdgetuserfield">mdgetuserfield.php</filename>

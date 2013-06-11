@@ -24,9 +24,9 @@ public function onContentPrepare($context, &$article, &$params, $page = 0)
 	//Get parameter
 $field = $this->params->get('getfield', 'username');
 //Get logged in userid
-$user = &JFactory::getUser();
+$user = JFactory::getUser();
 $userid = $user->id;
-$db = &JFactory::getDBO();
+$db = JFactory::getDBO();
 $select = "SELECT $field FROM #__users where id=$userid;";
 $db->setQuery($select);
 $fieldname = $db->loadresult();
